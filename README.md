@@ -9,6 +9,7 @@ Cualquier bug se puede indicar en diegojuarez_13@hotmail.com.
 
 # Funciones a implementar
 
-1. Volver a jugar directamente con los datos introducidos (mirar preferencias o crear BD).
-2. Activar PlayerVsPlayer.
-3. Arreglar opciones y añadir funcionalidad.
+1. Volver a jugar directamente con los datos introducidos (mirar preferencias o crear BD). :x:
+2. Activar PlayerVsPlayer. :x:
+3. Arreglar opciones y añadir funcionalidad. :x:
+4. Activar PlayerVsCPU. :heavy_check_mark:
