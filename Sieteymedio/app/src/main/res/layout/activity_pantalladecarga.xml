@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:layout_gravity="center"
+    android:id="@+id/lin_lay"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:background="@drawable/fondocarga1"
+    android:weightSum="1">
+
+    <com.example.diego.sieteymedio.CustomProgress
+        android:id="@+id/customProgressShowProgress"
+        android:layout_width="303dp"
+        android:layout_height="@dimen/custom_progress_height"
+        android:layout_marginTop="450dp"
+        android:layout_weight="0.07" />
+
+</LinearLayout>

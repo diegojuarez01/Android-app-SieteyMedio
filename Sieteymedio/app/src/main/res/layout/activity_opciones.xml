@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:background="#242729"
+    tools:context="com.example.diego.sieteymedio.opciones">
+
+    <RadioGroup
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:id="@+id/grupo3"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="40dp"
+        android:paddingLeft="@dimen/activity_horizontal_margin"
+        android:paddingRight="@dimen/activity_horizontal_margin"
+        >
+
+    </RadioGroup>
+
+    <Button
+        android:id="@+id/volvermenu"
+        android:layout_width="wrap_content"
+        android:layout_height="70dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentStart="true"
+        android:background="@drawable/fondoboton"
+        android:text="APLICAR"
+        android:textColor="#ffffff"
+        android:textSize="30dp" />
+
+    <RadioButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="OFF"
+        android:id="@+id/radioff"
+        android:checked="false"
+        android:textColor="#3B83BD"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"
+        android:layout_below="@+id/tv1"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="16dp"
+        android:layout_marginLeft="20dp"
+        />
+
+    <RadioButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="ON"
+        android:id="@+id/radioon"
+        android:textColor="#3B83BD"
+        android:layout_alignBaseline="@+id/radioff"
+        android:layout_alignBottom="@+id/radioff"
+        android:layout_toEndOf="@+id/radioff"
+        android:layout_marginLeft="20dp"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Sonido"
+        android:id="@+id/tv1"
+        android:layout_below="@+id/grupo3"
+        android:layout_alignParentStart="true"
+        android:paddingLeft="@dimen/activity_horizontal_margin"
+        android:paddingRight="@dimen/activity_horizontal_margin"
+        />
+
+    <SeekBar
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/seekBar"
+        android:layout_marginTop="20dp"
+        android:progress="50"
+        android:layout_below="@+id/volumen"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:paddingLeft="@dimen/activity_horizontal_margin"
+        android:paddingRight="@dimen/activity_horizontal_margin"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Volumen"
+        android:id="@+id/volumen"
+        android:layout_below="@+id/radioff"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="40dp"
+        android:paddingLeft="@dimen/activity_horizontal_margin"
+        android:paddingRight="@dimen/activity_horizontal_margin"
+        />
+
+
+
+</RelativeLayout>
