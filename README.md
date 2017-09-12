@@ -13,4 +13,4 @@ Cualquier bug se puede indicar en diegojuarez_13@hotmail.com.
 2. Activar PlayerVsPlayer. :x:
 3. Arreglar opciones y añadir funcionalidad. :x:
 4. Activar PlayerVsCPU. :heavy_check_mark:
-5. En MODO DE JUEGO poner por defecto 1 jugador o por 2 jugador si previamente se habia seleccionado (Desde volver a jugar). :x:
+5. En MODO DE JUEGO poner por defecto 1 jugador o por 2 jugador si previamente se habia seleccionado (Desde volver a jugar). :heavy_check_mark:
