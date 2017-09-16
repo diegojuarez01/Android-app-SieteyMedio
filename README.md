@@ -17,3 +17,4 @@ Cualquier bug se puede indicar en diegojuarez_13@hotmail.com.
 6. Crear otra opcion en el MENU con estadisticas de partidas para los diferentes Alias introducidos. :x:
 7. Cuando jugador2 se pase de 7.5 cambiar de activity. :heavy_check_mark:
 8. No permitir plantarse hasta dar la vuelta a todas las cartas :heavy_check_mark:
+9. Arreglar jugador2 con mas de 7 cartas da error. :x:
