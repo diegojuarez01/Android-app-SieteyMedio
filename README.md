@@ -20,4 +20,4 @@ Cualquier bug se puede indicar en diegojuarez_13@hotmail.com.
 9. Arreglar jugador2 con mas de 7 cartas da error. :x:
 10. Añadir idioma ingles. :heavy_check_mark:
 11. Dentro de opciones otro boton con idiomas. :heavy_check_mark:
-12. Añadir idioma frances. :x:
+12. Añadir idioma frances. :heavy_check_mark:
